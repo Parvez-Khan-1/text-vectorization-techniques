@@ -16,13 +16,8 @@ def generate_feature_vector(vocabulary, data_set):
     feature_vectors = []
     for sentence in data_set:
         word_tokens = str(sentence).lower().split()
-        vector = []
-        for word_in_vocab in vocabulary:
-            if word_in_vocab in word_tokens:
-                vector.append(1)
-            else:
-                vector.append(0)
-        feature_vectors.append(vector)
+        vector = lambda x: [1 if word_in_vocab in word_tokens else 0 for word_in_vocab in vocabulary]
+        feature_vectors.append(vector(vocabulary))
     return feature_vectors
 
 
