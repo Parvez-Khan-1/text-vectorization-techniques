@@ -1,0 +1,4 @@
+Please go through the below mention link for better understanding of various text-vectorization
+techniques:
+    https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/
+    https://en.wikipedia.org/wiki/Tf%E2%80%93idf
