@@ -1,4 +1,5 @@
 Please go through the below mention link for better understanding of various text-vectorization
 techniques:
-    https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/
-    https://en.wikipedia.org/wiki/Tf%E2%80%93idf
+    1) https://machinelearningmastery.com/prepare-text-data-machine-learning-scikit-learn/
+    2) https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428
+    3) https://en.wikipedia.org/wiki/Tf%E2%80%93idf
